@@ -13,7 +13,7 @@ import java.util.function.Supplier;
 public enum CopperArmorMaterial implements ArmorMaterial
 {
     //铜材质
-    COPPER("copper", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
+    COPPER("copper", 9, new int[]{2, 5, 6, 2}, 7, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
         return Ingredient.of(Items.COPPER_INGOT);
     });
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
