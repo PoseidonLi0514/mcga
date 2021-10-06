@@ -13,7 +13,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 
 public enum CopperToolsMaterial implements Tier {
     //铜材质
-    COPPER(3, 891, 5.1f, 1.7F, 23, () -> {
+    COPPER(3, 372, 5.1f, 1.7F, 23, () -> {
         return Ingredient.of(new ItemStack(Items.COPPER_INGOT).getItem());
     });
 
