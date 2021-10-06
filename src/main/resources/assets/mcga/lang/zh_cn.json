@@ -1,4 +1,8 @@
 {
   "itemGroup.copper_group": "让铜更有用",
-  "item.mcga.copper_pickaxe": "铜稿"
+  "item.mcga.copper_pickaxe": "铜稿",
+  "item.mcga.copper_sword": "铜剑",
+  "item.mcga.copper_axe": "铜斧",
+  "item.mcga.copper_shovel": "铜铲",
+  "item.mcga.copper_hoe": "铜锄"
 }
