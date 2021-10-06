@@ -4,5 +4,10 @@
   "item.mcga.copper_sword": "铜剑",
   "item.mcga.copper_axe": "铜斧",
   "item.mcga.copper_shovel": "铜铲",
-  "item.mcga.copper_hoe": "铜锄"
+  "item.mcga.copper_hoe": "铜锄",
+
+  "item.mcga.copper_helmet": "铜头盔",
+  "item.mcga.copper_chestplate": "铜胸甲",
+  "item.mcga.copper_leggings": "铜裤子",
+  "item.mcga.copper_boots": "铜靴子"
 }

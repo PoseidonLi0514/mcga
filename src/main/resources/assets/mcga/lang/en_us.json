@@ -4,5 +4,10 @@
   "item.mcga.copper_sword": "Copper Sword",
   "item.mcga.copper_axe": "Copper Axe",
   "item.mcga.copper_shovel": "Copper Shovel",
-  "item.mcga.copper_hoe": "Copper Hoe"
+  "item.mcga.copper_hoe": "Copper Hoe",
+
+  "item.mcga.copper_helmet": "Copper Helmet",
+  "item.mcga.copper_chestplate": "Copper Chestplate",
+  "item.mcga.copper_leggings": "Copper Leggings",
+  "item.mcga.copper_boots": "Copper Boots"
 }
