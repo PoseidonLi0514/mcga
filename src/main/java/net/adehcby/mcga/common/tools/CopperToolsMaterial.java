@@ -8,7 +8,7 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 
 /**
- * @author lhy
+ * @author PoseidonLi
  */
 
 public enum CopperToolsMaterial implements Tier {
