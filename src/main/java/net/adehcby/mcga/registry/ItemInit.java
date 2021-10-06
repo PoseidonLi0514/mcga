@@ -12,5 +12,9 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, McgaMain.MODID);
     public static final RegistryObject<Item> COPPER_PICKAXE =
-            ITEMS.register("copper_pickaxe", () -> new PickaxeItem(CopperToolsMaterial.COPPER, 1, -2.3f, new Item.Properties().tab(CopperGroup.COPPER_GROUP).fireResistant()));
+            ITEMS.register("copper_pickaxe", () -> new PickaxeItem(CopperToolsMaterial.COPPER, 1, -2.3f, new Item.Properties().tab(CopperGroup.COPPER_GROUP));
+    public static final RegistryObject<Item> COPPER_PICKAXE =
+            ITEMS.register("copper_pickaxe", () -> new PickaxeItem(CopperToolsMaterial.COPPER, 1, -2.3f, new Item.Properties().tab(CopperGroup.COPPER_GROUP)));
+    public static final RegistryObject<Item> COPPER_AXE =
+            ITEMS.register("copper_axe", () -> new AxeItem(CopperToolsMaterial.COPPER, 1.0f, 1.0f, new Item.Properties().tab(CopperGroup.COPPER_GROUP)));
 }
