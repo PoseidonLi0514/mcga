@@ -1,5 +1,6 @@
 package net.adehcby.mcga.registry;
 
+import com.mojang.brigadier.LiteralMessage;
 import net.adehcby.mcga.McgaMain;
 import net.adehcby.mcga.common.armor.CopperArmorMaterial;
 import net.adehcby.mcga.common.itemgroup.CopperGroup;
@@ -38,4 +39,8 @@ public class ItemInit {
     public static final RegistryObject<Item> ICOPPER_BOOTS =
             ITEMS.register("copper_boots", () -> new ArmorItem(CopperArmorMaterial.COPPER, EquipmentSlot.FEET, (new Item.Properties()).tab(CopperGroup.COPPER_GROUP)));
 
+    //Shield
+
+    public static final RegistryObject<Item> COPPER_SHIELD =
+            ITEMS.register("copper_shield", () -> new ShieldItem(new Item.Properties().tab(CopperGroup.COPPER_GROUP).durability(286)));
 }
