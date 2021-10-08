@@ -38,9 +38,4 @@ public class ItemInit {
             ITEMS.register("copper_leggings", () -> new ArmorItem(CopperArmorMaterial.COPPER, EquipmentSlot.LEGS, (new Item.Properties()).tab(CopperGroup.COPPER_GROUP)));
     public static final RegistryObject<Item> ICOPPER_BOOTS =
             ITEMS.register("copper_boots", () -> new ArmorItem(CopperArmorMaterial.COPPER, EquipmentSlot.FEET, (new Item.Properties()).tab(CopperGroup.COPPER_GROUP)));
-
-    //Shield
-
-    public static final RegistryObject<Item> COPPER_SHIELD =
-            ITEMS.register("copper_shield", () -> new ShieldItem(new Item.Properties().tab(CopperGroup.COPPER_GROUP).durability(286)));
 }
