@@ -1,5 +1,6 @@
 package net.adehcby.mcga;
 
+import net.adehcby.mcga.registry.BlockInit;
 import net.adehcby.mcga.registry.ItemInit;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -11,5 +12,6 @@ public class McgaMain {
     public McgaMain()
     {
         ItemInit.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BlockInit.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 }

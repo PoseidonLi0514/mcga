@@ -36,6 +36,17 @@ public class ItemInit {
             ITEMS.register("copper_chestplate", () -> new ArmorItem(CopperArmorMaterial.COPPER, EquipmentSlot.CHEST, (new Item.Properties()).tab(CopperGroup.COPPER_GROUP)));
     public static final RegistryObject<Item> COPPER_LEGGINGS =
             ITEMS.register("copper_leggings", () -> new ArmorItem(CopperArmorMaterial.COPPER, EquipmentSlot.LEGS, (new Item.Properties()).tab(CopperGroup.COPPER_GROUP)));
-    public static final RegistryObject<Item> ICOPPER_BOOTS =
+    public static final RegistryObject<Item> COPPER_BOOTS =
             ITEMS.register("copper_boots", () -> new ArmorItem(CopperArmorMaterial.COPPER, EquipmentSlot.FEET, (new Item.Properties()).tab(CopperGroup.COPPER_GROUP)));
+
+    //the others
+
+    public static final RegistryObject<Item> POWERED_COPPER_BLOCK =
+            ITEMS.register("powered_copper_block", () -> new BlockItem(BlockInit.POWERED_COPPER_BLOCK.get(), new Item.Properties().tab(CopperGroup.COPPER_GROUP)));
+    public static final RegistryObject<Item> POWERED_OXIDIZED_COPPER =
+            ITEMS.register("powered_oxidized_copper", () -> new BlockItem(BlockInit.POWERED_OXIDIZED_COPPER.get(), new Item.Properties().tab(CopperGroup.COPPER_GROUP)));
+    public static final RegistryObject<Item> POWERED_WEATHERED_COPPER =
+            ITEMS.register("powered_weathered_copper", () -> new BlockItem(BlockInit.POWERED_WEATHERED_COPPER.get(), new Item.Properties().tab(CopperGroup.COPPER_GROUP)));
+    public static final RegistryObject<Item> POWERED_EXPOSED_COPPER =
+            ITEMS.register("powered_exposed_copper", () -> new BlockItem(BlockInit.POWERED_EXPOSED_COPPER.get(), new Item.Properties().tab(CopperGroup.COPPER_GROUP)));
 }

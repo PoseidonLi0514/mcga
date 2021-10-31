@@ -4,13 +4,16 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 
-public class CopperGroup extends CreativeModeTab {
-    public CopperGroup() {
+public class CopperGroup extends CreativeModeTab
+{
+    public CopperGroup()
+    {
         super("copper_group");
     }
 
     @Override
-    public ItemStack makeIcon() {
+    public ItemStack makeIcon()
+    {
         return new ItemStack(Items.COPPER_INGOT);
     }
 
