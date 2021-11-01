@@ -49,4 +49,7 @@ public class ItemInit {
             ITEMS.register("powered_weathered_copper", () -> new BlockItem(BlockInit.POWERED_WEATHERED_COPPER.get(), new Item.Properties().tab(CopperGroup.COPPER_GROUP)));
     public static final RegistryObject<Item> POWERED_EXPOSED_COPPER =
             ITEMS.register("powered_exposed_copper", () -> new BlockItem(BlockInit.POWERED_EXPOSED_COPPER.get(), new Item.Properties().tab(CopperGroup.COPPER_GROUP)));
+    public static final RegistryObject<Item> COPPER_BUTTON =
+            ITEMS.register("copper_button", () -> new BlockItem(BlockInit.COPPER_BUTTON.get(), new Item.Properties().tab(CopperGroup.COPPER_GROUP)));
+
 }
