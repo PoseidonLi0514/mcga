@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "mcga:powered_copper_block",
+    "mcga:powered_oxidized_copper",
+    "mcga:powered_weathered_copper",
+    "mcga:powered_exposed_copper",
+    "mcga:copper_button"
+  ]
+}
