@@ -1,6 +1,26 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mcga:item/copper_sword"
-  }
+    "layer0": "mcga:item/copper_sword_1"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "mcga:damage": 94
+      },
+      "model": "mcga:item/copper_sword_2"
+    },
+    {
+      "predicate": {
+        "mcga:damage": 187
+      },
+      "model": "mcga:item/copper_sword_3"
+    },
+    {
+      "predicate": {
+        "mcga:damage": 280
+      },
+      "model": "mcga:item/copper_sword_4"
+    }
+  ]
 }

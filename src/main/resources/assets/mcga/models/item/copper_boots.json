@@ -1,6 +1,26 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mcga:item/copper_boots"
-  }
+    "layer0": "mcga:item/copper_boots_1"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "mcga:damage": 30
+      },
+      "model": "mcga:item/copper_boots_2"
+    },
+    {
+      "predicate": {
+        "mcga:damage": 58
+      },
+      "model": "mcga:item/copper_boots_3"
+    },
+    {
+      "predicate": {
+        "mcga:damage": 87
+      },
+      "model": "mcga:item/copper_boots_4"
+    }
+  ]
 }

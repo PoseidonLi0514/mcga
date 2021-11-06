@@ -1,6 +1,26 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mcga:item/copper_leggings"
-  }
+    "layer0": "mcga:item/copper_leggings_1"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "mcga:damage": 35
+      },
+      "model": "mcga:item/copper_leggings_2"
+    },
+    {
+      "predicate": {
+        "mcga:damage": 69
+      },
+      "model": "mcga:item/copper_leggings_3"
+    },
+    {
+      "predicate": {
+        "mcga:damage": 103
+      },
+      "model": "mcga:item/copper_leggings_4"
+    }
+  ]
 }

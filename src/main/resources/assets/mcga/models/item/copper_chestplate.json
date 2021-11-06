@@ -1,6 +1,26 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mcga:item/copper_chestplate"
-  }
+    "layer0": "mcga:item/copper_chestplate_1"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "mcga:damage": 37
+      },
+      "model": "mcga:item/copper_chestplate_2"
+    },
+    {
+      "predicate": {
+        "mcga:damage": 73
+      },
+      "model": "mcga:item/copper_chestplate_3"
+    },
+    {
+      "predicate": {
+        "mcga:damage": 109
+      },
+      "model": "mcga:item/copper_chestplate_4"
+    }
+  ]
 }

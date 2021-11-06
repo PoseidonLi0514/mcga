@@ -1,6 +1,26 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mcga:item/copper_helmet"
-  }
+    "layer0": "mcga:item/copper_helmet_1"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "mcga:damage": 26
+      },
+      "model": "mcga:item/copper_helmet_2"
+    },
+    {
+      "predicate": {
+        "mcga:damage": 51
+      },
+      "model": "mcga:item/copper_helmet_3"
+    },
+    {
+      "predicate": {
+        "mcga:damage": 75
+      },
+      "model": "mcga:item/copper_helmet_4"
+    }
+  ]
 }
