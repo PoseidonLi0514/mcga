@@ -6,19 +6,19 @@
   "overrides": [
     {
       "predicate": {
-        "mcga:damage": 94
+        "mcga:damage": 0.25
       },
       "model": "mcga:item/copper_axe_2"
     },
     {
       "predicate": {
-        "mcga:damage": 187
+        "mcga:damage": 0.5
       },
       "model": "mcga:item/copper_axe_3"
     },
     {
       "predicate": {
-        "mcga:damage": 280
+        "mcga:damage": 0.75
       },
       "model": "mcga:item/copper_axe_4"
     }

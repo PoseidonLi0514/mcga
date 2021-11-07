@@ -6,19 +6,19 @@
   "overrides": [
     {
       "predicate": {
-        "mcga:damage": 37
+        "mcga:damage": 0.25
       },
       "model": "mcga:item/copper_chestplate_2"
     },
     {
       "predicate": {
-        "mcga:damage": 73
+        "mcga:damage": 0.5
       },
       "model": "mcga:item/copper_chestplate_3"
     },
     {
       "predicate": {
-        "mcga:damage": 109
+        "mcga:damage": 0.75
       },
       "model": "mcga:item/copper_chestplate_4"
     }

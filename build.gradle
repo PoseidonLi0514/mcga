@@ -12,7 +12,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 
 group = 'adehcby'
-version = '1.2-Beta'
+version = '1.3-Beta'
 
 java {
     archivesBaseName = 'mcga'
