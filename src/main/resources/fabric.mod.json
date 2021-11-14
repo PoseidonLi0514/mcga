@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "mcga",
+  "version": "${version}",
+  "name": "Mcga",
+  "description": "Fabric version",
+  "authors": [
+    "PoseidonLi"
+  ],
+  "contact": {
+    "website": "https://www.mcmod.cn/class/4924.html"
+  },
+  "license": "MIT",
+  "icon": "assets/mcga/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.poseidon.mcga.client.ClientMain"
+    ],
+    "main": [
+      "net.poseidon.mcga.Main"
+    ]
+  },
+  "mixins": [
+    "mcga.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
