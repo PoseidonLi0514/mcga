@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#E#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone"
+    },
+    "E": {
+      "item": "minecraft:exposed_copper"
+    }
+  },
+  "result": {
+    "item": "mcga:powered_exposed_copper",
+    "count": 1
+  }
+}

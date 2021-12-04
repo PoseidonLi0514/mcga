@@ -1,0 +1,18 @@
+{
+  "itemGroup.copper_group": "Mcga",
+  "item.mcga.copper_pickaxe": "Copper Pickaxe",
+  "item.mcga.copper_sword": "Copper Sword",
+  "item.mcga.copper_axe": "Copper Axe",
+  "item.mcga.copper_shovel": "Copper Shovel",
+  "item.mcga.copper_hoe": "Copper Hoe",
+
+  "item.mcga.copper_helmet": "Copper Helmet",
+  "item.mcga.copper_chestplate": "Copper Chestplate",
+  "item.mcga.copper_leggings": "Copper Leggings",
+  "item.mcga.copper_boots": "Copper Boots",
+  "block.mcga.powered_copper_block": "Powered Block of Copper",
+  "block.mcga.powered_oxidized_copper": "Powered Oxidized Copper",
+  "block.mcga.powered_exposed_copper": "Powered Exposed Copper",
+  "block.mcga.powered_weathered_copper":"Powered Weathered Copper",
+  "block.mcga.copper_button": "Copper Button"
+}

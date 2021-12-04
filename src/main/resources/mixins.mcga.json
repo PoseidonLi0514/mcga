@@ -1,0 +1,6 @@
+{
+  "package": "net.adehcby.mcga.mixin",
+  "mixins": [],
+  "client": [],
+  "server": []
+}

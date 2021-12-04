@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#O#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone"
+    },
+    "O": {
+      "item": "minecraft:oxidized_copper"
+    }
+  },
+  "result": {
+    "item": "mcga:powered_oxidized_copper",
+    "count": 1
+  }
+}

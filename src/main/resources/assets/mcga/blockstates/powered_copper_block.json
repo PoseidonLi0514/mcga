@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "mcga:block/powered_copper_block_model" }
+  }
+}

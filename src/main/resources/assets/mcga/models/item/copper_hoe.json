@@ -1,0 +1,26 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mcga:item/copper_hoe_1"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "mcga:damage": 0.25
+      },
+      "model": "mcga:item/copper_hoe_2"
+    },
+    {
+      "predicate": {
+        "mcga:damage": 0.5
+      },
+      "model": "mcga:item/copper_hoe_3"
+    },
+    {
+      "predicate": {
+        "mcga:damage": 0.75
+      },
+      "model": "mcga:item/copper_hoe_4"
+    }
+  ]
+}
